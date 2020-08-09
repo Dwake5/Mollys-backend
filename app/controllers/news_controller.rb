@@ -5,7 +5,7 @@ class NewsController < ApplicationController
     end
     
     def update
-        news = News.find(params[:id])
+        news = News.find(1)
         news.update(news_details)
     end
 
